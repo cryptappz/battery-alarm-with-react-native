@@ -24,3 +24,6 @@
 </p>
 <p><strong>Scan the QR Code with the camera of your phone</strong></p>
 <img src="https://raw.githubusercontent.com/cryptappz/battery-alarm-with-react-native/master/assets/QR-code.png" alt="QR Code" />
+
+## Screenshot
+<img src="https://raw.githubusercontent.com/cryptappz/battery-alarm-with-react-native/master/assets/screenshot.png" alt="QR Code" width="350" />
