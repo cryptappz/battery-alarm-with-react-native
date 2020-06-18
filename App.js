@@ -13,7 +13,7 @@ const App = () => {
     Battery.addBatteryLevelListener(({ batteryLevel }) => {
       batteryLevel = Math.round(batteryLevel * 100);
       setLevel(batteryLevel);
-      if (batteryLevel == 22) {
+      if (batteryLevel == 80) {
         playAlert();
       }
       console.log("B: " + batteryLevel);
