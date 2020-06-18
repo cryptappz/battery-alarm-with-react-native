@@ -1,28 +1,27 @@
 {
   "expo": {
-    "name": "battery-alarm",
+    "name": "Battery Alarm",
     "slug": "battery-alarm",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/battery-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/battery-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.companyname.batteryalarm",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.companyname.batteryalarm",
+      "versionCode": 1
     }
   }
 }
